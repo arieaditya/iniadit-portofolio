@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Helmet } from 'react-helmet';
 import { Link } from 'gatsby';
-import Layout from '../components/Layout';
+import Layout from '../components/layout';
 import { breakpoints } from '../components/Media';
 import Logo from '../components/Logo';
 import Heading from '../components/Heading';
@@ -129,19 +129,19 @@ const HeadingImage = styled.div`
     }
 `;
 
-const SubParagraph = styled(Paragraph)`
-    margin-top: 10px;
-    max-width: unset;
+// const SubParagraph = styled(Paragraph)`
+//     margin-top: 10px;
+//     max-width: unset;
 
-    @media (min-width: ${breakpoints.mobileMax}) {
-        max-width: 70%;
-    }
-`;
+//     @media (min-width: ${breakpoints.mobileMax}) {
+//         max-width: 70%;
+//     }
+// `;
 
 class Page extends React.Component {
-    constructor(props) {
-        super(props);
-    }
+    // constructor(props) {
+    //     super(props);
+    // }
 
     componentDidMount() {
         console.log(`Oh, Hi There!`);
