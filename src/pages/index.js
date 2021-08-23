@@ -9,6 +9,7 @@ import Heading from '../components/Heading';
 import Paragraph from '../components/Paragraph';
 import LandingImage from '../images/LandingImage.jpg';
 import HeadingWrap from '../components/HeadingWrap';
+import Footer from '../components/footer';
 import '../index.css';
 import { Float } from '../styles';
 
@@ -297,9 +298,14 @@ class Page extends React.Component {
                                 Take a look at some of the mockups, articles, and applications
                                 I've dedicated my time to.
                             </Paragraph>
+
+                            <Paragraph>
+                              🚧 Content in progress 🚧
+                            </Paragraph>
                         </TextContent>
                     </SubContainer>
                 </Layout>
+                <Footer instagramDisplay='flex' />
             </>
         );
     }
