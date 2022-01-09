@@ -9,6 +9,7 @@ import Heading from '../components/Heading';
 import Paragraph from '../components/Paragraph';
 import LandingImage from '../images/LandingImage.jpg';
 import HeadingWrap from '../components/HeadingWrap';
+import FullProjectRow from '../components/FullProjectRow';
 import Footer from '../components/footer';
 import '../index.css';
 import { Float } from '../styles';
@@ -299,10 +300,13 @@ class Page extends React.Component {
                                 I've dedicated my time to.
                             </Paragraph>
 
-                            <Paragraph>
+                            {/* <Paragraph>
                               🚧 Content in progress 🚧
-                            </Paragraph>
+                            </Paragraph> */}
                         </TextContent>
+                    </SubContainer>
+                    <SubContainer>
+                        <FullProjectRow />
                     </SubContainer>
                 </Layout>
                 <Footer instagramDisplay='flex' />
