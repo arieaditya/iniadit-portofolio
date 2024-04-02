@@ -15,7 +15,7 @@ import '../index.css';
 import { Float } from '../styles';
 
 const Container = styled.div`
-    margin: 100px 0 200px 0;
+    margin: 50px 0 200px 0;
     width: 100%;
     height: auto;
     display: flex;
@@ -141,9 +141,9 @@ const HeadingImage = styled.div`
 // `;
 
 class Page extends React.Component {
-    // constructor(props) {
-    //     super(props);
-    // }
+    constructor(props) {
+        super(props);
+    }
 
     componentDidMount() {
         console.log(`Oh, Hi There!`);
@@ -212,10 +212,8 @@ class Page extends React.Component {
                     >
                         <TextContentWrap>
                             <Paragraph>
-                                I'm a 28-years-old, and currently focusing
+                                I'm currently focusing
                                 in web development, web performance, and design.
-                                <br />
-                                <br />
                                 As I've grown as a developer in a startup 
                                 industry, a lot of things happen which have 
                                 raised my standards for what's expected of 
@@ -225,7 +223,7 @@ class Page extends React.Component {
                         <TextContentWrap>
                             <Paragraph> 
                                 Through these experiences, I've gained many things
-                                in front-end development. As a front-end developer, I maintain the bridge
+                                in front-end development. As a seasoned front-end developer, I maintain the bridge
                                 between visual experience, back-end, general user flows, capturing
                                 interactions, and translating a designer's intention into
                                 something that the browser can understand.
@@ -246,6 +244,14 @@ class Page extends React.Component {
                                     </Paragraph>
                                 </TextContent>
                                 <SkillTable>
+                                <div>
+                                        <Paragraph>
+                                            <span>&#9675;</span> Typescript
+                                        </Paragraph>
+                                        <Paragraph>
+                                            <span>&#9675;</span> Tailwind CSS
+                                        </Paragraph>
+                                    </div>
                                     <div>
                                         <Paragraph>
                                             <span>&#9675;</span> Javascript ES6
@@ -256,10 +262,10 @@ class Page extends React.Component {
                                     </div>
                                     <div>
                                         <Paragraph>
-                                            <span>&#9675;</span> Material UI
+                                            <span>&#9675;</span> React Query
                                         </Paragraph>
                                         <Paragraph>
-                                            <span>&#9675;</span> SASS
+                                            <span>&#9675;</span> Xstate
                                         </Paragraph>
                                     </div>
                                     <div>
@@ -268,23 +274,23 @@ class Page extends React.Component {
                                         </Paragraph>
                                         <Paragraph>
                                             <span>&#9675;</span>{' '}
-                                            Styled-Components
+                                            React Testing Library
                                         </Paragraph>
                                     </div>
                                     <div>
                                         <Paragraph>
-                                            <span>&#9675;</span> Git
+                                            <span>&#9675;</span> PWA (Progressive Web App)
                                         </Paragraph>
                                         <Paragraph>
-                                            <span>&#9675;</span> PHP & SQL
+                                            <span>&#9675;</span> Storybook
                                         </Paragraph>
                                     </div>
                                     <div>
                                         <Paragraph>
-                                            <span>&#9675;</span> Bootstrap
+                                            <span>&#9675;</span> Styled Component
                                         </Paragraph>
                                         <Paragraph>
-                                            <span>&#9675;</span> jQuery
+                                            <span>&#9675;</span> NextJS
                                         </Paragraph>
                                     </div>
                                 </SkillTable>
