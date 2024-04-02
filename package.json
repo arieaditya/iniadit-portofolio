@@ -7,7 +7,7 @@
   "dependencies": {
     "babel-plugin-styled-components": "^1.13.2",
     "dotenv": "^10.0.0",
-    "gatsby": "^4.0.0",
+    "gatsby": "^3.11.0",
     "gatsby-plugin-config": "^1.0.7",
     "gatsby-plugin-env-variables": "^2.1.0",
     "gatsby-plugin-google-gtag": "^3.12.0",

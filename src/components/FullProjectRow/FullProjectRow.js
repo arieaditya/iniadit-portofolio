@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'gatsby';
 import styled from 'styled-components';
 import { breakpoints } from '../Media';
 import Heading from '../Heading';
@@ -137,7 +136,7 @@ function FullProjectRow() {
                     couples spread their invitation through the web.
                 </ProjectParagraph>
                 
-                <a href="https://sungnikah.com" target="_blank">
+                <a href="https://sungnikah.com" target="_blank" rel="noreferrer">
                     <ProjectLink >View Project <span>&#8250;</span></ProjectLink>
                 </a>
                 

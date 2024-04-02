@@ -21,6 +21,7 @@ function HeadingWrap() {
                             target='_blank'
                             rel='noreferrer'
                             href='https://www.instagram.com/adit739/'
+                            aria-label='Instagram'
                         >
                             <Social>
                                 <svg
@@ -44,6 +45,7 @@ function HeadingWrap() {
                             target='_blank'
                             rel='noreferrer'
                             href='https://github.com/arieaditya'
+                            aria-label='Github'
                         >
                             <Social>
                                 <svg
@@ -66,6 +68,7 @@ function HeadingWrap() {
                             target='_blank'
                             rel='noreferrer'
                             href='https://twitter.com/arie739'
+                            aria-label='Twitter'
                         >
                             <Social>
                                <svg 

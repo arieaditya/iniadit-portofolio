@@ -141,10 +141,6 @@ const HeadingImage = styled.div`
 // `;
 
 class Page extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
     componentDidMount() {
         console.log(`Oh, Hi There!`);
     }
