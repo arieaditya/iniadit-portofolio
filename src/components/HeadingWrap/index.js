@@ -17,7 +17,7 @@ function HeadingWrap() {
                     <Line />
                     <SocialCont>
                         <a
-                            title='Instagram - Juliacodes'
+                            title='Instagram'
                             target='_blank'
                             rel='noreferrer'
                             href='https://www.instagram.com/adit739/'
