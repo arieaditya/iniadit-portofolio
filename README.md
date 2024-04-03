@@ -1,4 +1,4 @@
-### Personal portfolio page - <a href="https://iniadit.netlify.app/">iniadit/</a>
+### Personal portfolio page - <a href="https://iniadit.netlify.app/">iniadit</a>
 
 Minimalism Portofolio Page by Adit using: React, Gatsby, Styled Components & Netlify
 
