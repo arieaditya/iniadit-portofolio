@@ -213,7 +213,8 @@ class Page extends React.Component {
                                 As I've grown as a developer in a startup 
                                 industry, a lot of things happen which have 
                                 raised my standards for what's expected of 
-                                any web application.
+                                any web application. Technology has always been 
+                                at the very core of my interests.
                             </Paragraph>
                         </TextContentWrap>
                         <TextContentWrap>
@@ -302,9 +303,9 @@ class Page extends React.Component {
                                 I've dedicated my time to.
                             </Paragraph>
 
-                            {/* <Paragraph>
+                            <Paragraph>
                               🚧 Content in progress 🚧
-                            </Paragraph> */}
+                            </Paragraph>
                         </TextContent>
                     </SubContainer>
                     <SubContainer>
