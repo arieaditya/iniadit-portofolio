@@ -14,14 +14,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-env-variables`,
       options: {
-        allowList: ["GA_TRACKING_ID"]
+        allowList: ["GA_MEASUREMENT_ID"]
       },
     },
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         trackingIds: [
-          process.env.GA_TRACKING_ID, // Google Analytics / GA
+          process.env.GA_MEASUREMENT_ID, // Google Analytics / GA
         ],
         gtagConfig: {
           anonymize_ip: true,
