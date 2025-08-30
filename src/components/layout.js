@@ -1,4 +1,4 @@
-import styled, { keyframes } from "styled-components/macro";
+import styled, { keyframes } from "styled-components";
 import { breakpoints } from "./Media";
 
 const FadeOut = keyframes`

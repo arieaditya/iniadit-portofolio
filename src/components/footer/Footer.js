@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import styled from 'styled-components/macro';
+import styled from 'styled-components';
 import Heading from '../Heading';
 import Paragraph from '../Paragraph';
 import Logo from '../Logo';

@@ -3,7 +3,8 @@ import styled from 'styled-components';
 import { breakpoints } from '../Media';
 import Heading from '../Heading';
 import Paragraph from '../Paragraph';
-import Sungnikah from '../../images/sungnikah-presentation.jpg';
+import { StaticImage } from 'gatsby-plugin-image';
+// import Sungnikah from '../../images/sungnikah-presentation.jpg';
 
 const ProjectContainer = styled.div`
     display: flex;
@@ -51,9 +52,15 @@ const ProjectImage = styled.div`
     height: 300px;
     border-radius: 4px;
     transition-duration: 0.3s;
+    overflow: hidden;
 
     @media (min-width: ${breakpoints.mobileMax}) {
         height: 520px;
+    }
+
+    .gatsby-image-wrapper {
+        width: 100%;
+        height: 100%;
     }
 `;
 
@@ -65,7 +72,9 @@ const Project = styled.div`
 
     :hover {
         ${ProjectImage} {
-            transform: scale(1.03);
+            .gatsby-image-wrapper {
+                transform: scale(1.03);
+            }
         }
 
         ${ProjectLink} {
@@ -84,21 +93,6 @@ const Project = styled.div`
     @media (min-width: ${breakpoints.mobileMax}) {
         width: 100%;
         margin-bottom: 0px;
-    }
-
-    :nth-child(1) {
-        ${ProjectImage} {
-            background-image: url(${Sungnikah});
-            background-size: cover;
-            background-position-x: left;
-            background-position-y: top;
-            
-
-            @media (min-width: ${breakpoints.mobileMax}) {
-                background-position-x: center;
-                background-position-y: center;
-            }
-        }
     }
 `;
 
@@ -129,7 +123,19 @@ function FullProjectRow() {
     return (
         <ProjectContainer>
             <Project>
-                <ProjectImage />
+                <ProjectImage>
+                    <StaticImage
+                        src="../../images/sungnikah-presentation.jpg"
+                        alt="Sungnikah project screenshot"
+                        placeholder="blurred"
+                        layout="constrained"
+                        width={800}
+                        height={520}
+                        style={{
+                            transition: 'transform 0.3s',
+                        }}
+                    />
+                </ProjectImage>
                 <SubHeading>Sungnikah</SubHeading>
                 <ProjectParagraph>
                     My current work in progress, a digital custom wedding invitation that helps

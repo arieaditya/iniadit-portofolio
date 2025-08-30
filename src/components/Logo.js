@@ -1,6 +1,6 @@
 import React from "react";
 import logosvg from "../images/Logo.svg";
-import styled from "styled-components/macro";
+import styled from "styled-components";
 
 const LogoImg = styled.div`
   position: relative;
