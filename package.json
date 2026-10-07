@@ -4,6 +4,9 @@
   "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
   "author": "Adit <arieadityan@gmail.com>",
+  "engines": {
+    "node": ">=24.21.0 <25"
+  },
   "dependencies": {
     "babel-plugin-styled-components": "^2.1.4",
     "dotenv": "^16.4.5",
@@ -47,5 +50,17 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "allowScripts": {
+    "@parcel/watcher": true,
+    "fsevents": true,
+    "gatsby": true,
+    "gatsby-cli": true,
+    "lmdb": true,
+    "msgpackr-extract": true,
+    "sharp": true,
+    "core-js": false,
+    "core-js-pure": false,
+    "es5-ext": false
   }
 }
