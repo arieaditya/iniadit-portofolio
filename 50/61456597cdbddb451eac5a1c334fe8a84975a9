@@ -1,0 +1,21 @@
+src/components/HeadingWrap/index.js
+  s_59c94660f470d3::t_c0f578d22be0a3 93,95
+src/styles/styles.js
+  s_59c94660f470d3::t_01f5d64da5e3cf 60
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "5061456597cdbddb451eac5a1c334fe8a84975a9",
+  "prompts": {},
+  "sessions": {
+    "s_59c94660f470d3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "253105b9-525f-4497-875d-5065bfeea3eb",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "arieaditya <arieadityan@gmail.com>"
+    }
+  }
+}
