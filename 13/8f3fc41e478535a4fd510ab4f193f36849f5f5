@@ -1,0 +1,19 @@
+gatsby-config.js
+  s_59c94660f470d3::t_c53203e48f8917 25
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "138f3fc41e478535a4fd510ab4f193f36849f5f5",
+  "prompts": {},
+  "sessions": {
+    "s_59c94660f470d3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "253105b9-525f-4497-875d-5065bfeea3eb",
+        "model": "unknown"
+      },
+      "human_author": "arieaditya <arieadityan@gmail.com>"
+    }
+  }
+}
