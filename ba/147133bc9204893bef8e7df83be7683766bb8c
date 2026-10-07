@@ -1,0 +1,21 @@
+gatsby-config.js
+  s_59c94660f470d3::t_523537fd06aa30 9-10
+src/pages/index.js
+  s_59c94660f470d3::t_5564bbffc24250 157,161,174,191
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "ba147133bc9204893bef8e7df83be7683766bb8c",
+  "prompts": {},
+  "sessions": {
+    "s_59c94660f470d3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "253105b9-525f-4497-875d-5065bfeea3eb",
+        "model": "unknown"
+      },
+      "human_author": "arieaditya <arieadityan@gmail.com>"
+    }
+  }
+}
