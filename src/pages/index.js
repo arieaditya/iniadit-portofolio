@@ -154,11 +154,11 @@ class Page extends React.Component {
                     </Link>
                     <Helmet>
                         <title>
-                            Arie Aditya - Front End Developer
+                            Arie Aditya - Software Engineer
                         </title>
                         <meta
                             name='title'
-                            content='Arie Aditya - Front End Developer'
+                            content='Arie Aditya - Software Engineer'
                         />
                         <meta
                             name='description'
@@ -171,7 +171,7 @@ class Page extends React.Component {
                         />
                         <meta
                             property='og:title'
-                            content='Arie Aditya - Front End Developer'
+                            content='Arie Aditya - Software Engineer'
                         />
                         <meta
                             property='og:description'
@@ -188,7 +188,7 @@ class Page extends React.Component {
                         />
                         <meta
                             property='twitter:title'
-                            content='Arie Aditya - Front End Developer'
+                            content='Arie Aditya - Software Engineer'
                         />
                         <meta
                             property='twitter:description'

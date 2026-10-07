@@ -6,8 +6,8 @@ const config = require('gatsby-plugin-config');
 
 module.exports = {
   siteMetadata: {
-    title: `Arie Aditya Nugraha - Front End Developer`,
-    description: `Portfolio of Arie Aditya Nugraha - Front End Web Developer`,
+    title: `Arie Aditya Nugraha - Software Engineer`,
+    description: `Portfolio of Arie Aditya Nugraha - Software Engineer`,
     author: `@adit739`
   },
   plugins: [
