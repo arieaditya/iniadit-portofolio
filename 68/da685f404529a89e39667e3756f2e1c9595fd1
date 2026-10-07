@@ -1,0 +1,23 @@
+.nvmrc
+  s_59c94660f470d3::t_051f5adc53057c 1
+package.json
+  s_59c94660f470d3::t_051f5adc53057c 7-9,66
+  s_59c94660f470d3::t_b43169e6120791 53-54,62-64
+  s_59c94660f470d3::t_99c802a2987fbf 55-61
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "68da685f404529a89e39667e3756f2e1c9595fd1",
+  "prompts": {},
+  "sessions": {
+    "s_59c94660f470d3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "253105b9-525f-4497-875d-5065bfeea3eb",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "arieaditya <arieadityan@gmail.com>"
+    }
+  }
+}
