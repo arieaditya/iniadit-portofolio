@@ -57,7 +57,7 @@ export const HeadingMain = styled.h1`
     }
 
     > span {
-        display: inline-block;
+        display: block;
         transform: translateY(30px);
         opacity: 0;
         animation: ${Float} 1s 0.2s forwards;

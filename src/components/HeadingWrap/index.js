@@ -90,12 +90,9 @@ function HeadingWrap() {
                     </SocialCont>
                 </HeadingElements>
                 <HeadingMain>
+                    <span>Hi there, I’m Adit.</span>
                     <span>
-                        Hi there, I’m Adit. <br />
-                    </span>
-                    <span>
-                        Front End <span className='blue'>Developer</span>,{' '}
-                        <br />
+                        Software <span className='blue'>Engineer</span>,
                     </span>
                     <span>UI Enthusiast, and full time eater.</span>
                 </HeadingMain>
