@@ -22,7 +22,7 @@ module.exports = {
       options: {
         trackingIds: [
           process.env.GA_MEASUREMENT_ID, // Google Analytics / GA
-        ],
+        ].filter(Boolean),
         gtagConfig: {
           anonymize_ip: true,
           cookie_expires: 0,
